@@ -1,0 +1,13 @@
+<svg width="1200" height="110" viewBox="0 0 1200 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#4C6FFF"/>
+      <stop offset="100%" stop-color="#B24BF3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="110" fill="#060A14"/>
+  <rect x="0" y="0" width="1200" height="2" fill="url(#footGrad)"/>
+  <text x="600" y="48" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#8DA0C4">Thanks for reading the source of this profile.</text>
+  <text x="600" y="74" text-anchor="middle" font-family="'Cascadia Code','Courier New',monospace" font-size="12" fill="#3A4A70">// process exited with code 0 — build stable</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tlGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#B24BF3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="220" fill="#060A14" rx="12"/>
+  <text x="30" y="34" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#E7ECFB">Career Timeline</text>
+
+  <line x1="70" y1="140" x2="930" y2="140" stroke="url(#tlGrad)" stroke-width="2"/>
+
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">
+    <g transform="translate(120,140)">
+      <circle r="7" fill="#00E5FF"/>
+      <text y="-16" text-anchor="middle" fill="#5C6B8A">MAY 2020</text>
+      <text y="34" text-anchor="middle" fill="#E7ECFB" font-weight="600">Class X — 96.6%</text>
+      <text y="52" text-anchor="middle" fill="#8DA0C4">Academic scholarship awarded</text>
+    </g>
+    <g transform="translate(340,140)">
+      <circle r="7" fill="#4C6FFF"/>
+      <text y="-16" text-anchor="middle" fill="#5C6B8A">MAY 2022</text>
+      <text y="34" text-anchor="middle" fill="#E7ECFB" font-weight="600">Class XII — 90.6%</text>
+      <text y="52" text-anchor="middle" fill="#8DA0C4">R.P.M. Academy, CBSE</text>
+    </g>
+    <g transform="translate(560,140)">
+      <circle r="7" fill="#4C6FFF"/>
+      <text y="-16" text-anchor="middle" fill="#5C6B8A">2023 —</text>
+      <text y="34" text-anchor="middle" fill="#E7ECFB" font-weight="600">B.Tech CSE, VIT Bhopal</text>
+      <text y="52" text-anchor="middle" fill="#8DA0C4">CGPA 9.15/10.0 · Expected May 2027</text>
+    </g>
+    <g transform="translate(780,140)">
+      <circle r="7" fill="#B24BF3"/>
+      <text y="-16" text-anchor="middle" fill="#5C6B8A">MAY–OCT 2025</text>
+      <text y="34" text-anchor="middle" fill="#E7ECFB" font-weight="600">Full-Stack Intern</text>
+      <text y="52" text-anchor="middle" fill="#8DA0C4">amasQIS.ai, Muscat (Remote)</text>
+    </g>
+    <g transform="translate(930,140)">
+      <circle r="8" fill="#39FFB0"/>
+      <text y="-16" text-anchor="middle" fill="#5C6B8A">NOW</text>
+      <text y="34" text-anchor="middle" fill="#39FFB0" font-weight="600">Seeking SDE Roles</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="spotGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1424"/>
+      <stop offset="100%" stop-color="#141B33"/>
+    </linearGradient>
+    <linearGradient id="spotEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#B24BF3"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="260" rx="14" fill="url(#spotGrad)" stroke="url(#spotEdge)" stroke-width="1.5"/>
+  <rect x="0" y="0" width="6" height="260" fill="url(#spotEdge)"/>
+
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="36" y="42" font-size="12" letter-spacing="2" fill="#5C6B8A">FLAGSHIP PROJECT · SPOTLIGHT</text>
+    <text x="36" y="76" font-size="26" font-weight="700" fill="#E7ECFB">Divyam — API Inspector &amp; Bug Reproduction Assistant</text>
+    <text x="36" y="102" font-size="13" fill="#8DA0C4">Local-first Chrome DevTools extension · React · TypeScript · Manifest V3</text>
+
+    <g font-size="13" fill="#B8C4E0">
+      <text x="36" y="140">→ Captures and filters live REST/GraphQL traffic inside the browser debugger</text>
+      <text x="36" y="164">→ Persists sessions offline via IndexedDB for request-delta comparison</text>
+      <text x="36" y="188">→ Redacts credentials with Zod schemas before exporting cURL/Markdown reports</text>
+    </g>
+
+    <g font-family="'Cascadia Code','Courier New',monospace" font-size="12" fill="#0A1020">
+      <rect x="36" y="210" width="120" height="26" rx="13" fill="url(#spotEdge)"/>
+      <text x="96" y="227" text-anchor="middle" font-weight="600">Vitest tested</text>
+      <rect x="168" y="210" width="140" height="26" rx="13" fill="#0D1424" stroke="#1E2C4E"/>
+      <text x="238" y="227" text-anchor="middle" fill="#B8C4E0">Repository Pattern</text>
+    </g>
+  </g>
+</svg>

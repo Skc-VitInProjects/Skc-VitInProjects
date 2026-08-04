@@ -1,0 +1,22 @@
+<svg width="1200" height="40" viewBox="0 0 1200 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#060A14" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#4C6FFF"/>
+      <stop offset="85%" stop-color="#B24BF3"/>
+      <stop offset="100%" stop-color="#060A14" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="url(#divGrad)" stroke-width="1.5"/>
+  <g fill="#4C6FFF">
+    <circle cx="60" cy="20" r="2.5"/>
+    <circle cx="300" cy="20" r="2.5"/>
+    <circle cx="600" cy="20" r="3.5" fill="#00E5FF"/>
+    <circle cx="900" cy="20" r="2.5"/>
+    <circle cx="1140" cy="20" r="2.5"/>
+  </g>
+  <g font-family="'Cascadia Code','Courier New',monospace" font-size="10" fill="#3A4A70">
+    <text x="560" y="12">0x</text>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg width="420" height="480" viewBox="0 0 420 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pcGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#B24BF3"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="480" rx="14" fill="#0A1020" stroke="#1E2C4E"/>
+  <rect x="0" y="0" width="420" height="6" rx="3" fill="url(#pcGrad)"/>
+
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="24" y="42" font-size="12" letter-spacing="3" fill="#5C6B8A">PROFILE_CARD.SYS</text>
+    <circle cx="60" cy="100" r="36" fill="none" stroke="url(#pcGrad)" stroke-width="3"/>
+    <text x="60" y="108" text-anchor="middle" font-size="26" font-weight="700" fill="#E7ECFB">SK</text>
+
+    <text x="112" y="90" font-size="19" font-weight="700" fill="#E7ECFB">Skand Kumar Choubey</text>
+    <text x="112" y="112" font-size="13" fill="#8DA0C4">Full-Stack Software Engineer</text>
+
+    <line x1="24" y1="150" x2="396" y2="150" stroke="#1E2C4E"/>
+
+    <g font-size="13" fill="#8DA0C4">
+      <text x="24" y="178">Role</text><text x="240" y="178" fill="#E7ECFB">SDE / Full-Stack</text>
+      <text x="24" y="204">CGPA</text><text x="240" y="204" fill="#E7ECFB">9.15 / 10.0</text>
+      <text x="24" y="230">Experience</text><text x="240" y="230" fill="#E7ECFB">6 mo internship</text>
+      <text x="24" y="256">Projects Shipped</text><text x="240" y="256" fill="#E7ECFB">3</text>
+      <text x="24" y="282">DSA Solved</text><text x="240" y="282" fill="#E7ECFB">260+</text>
+      <text x="24" y="308">Current Focus</text><text x="240" y="308" fill="#E7ECFB">System Design, Cloud</text>
+      <text x="24" y="334">Availability</text><text x="240" y="334" fill="#39FFB0">Open to Work</text>
+    </g>
+
+    <line x1="24" y1="358" x2="396" y2="358" stroke="#1E2C4E"/>
+    <text x="24" y="384" font-size="12" fill="#5C6B8A">PRIMARY STACK</text>
+    <g font-size="12" fill="#0A1020">
+      <rect x="24" y="396" width="60" height="24" rx="12" fill="url(#pcGrad)"/>
+      <text x="54" y="412" text-anchor="middle" font-weight="600">React</text>
+      <rect x="92" y="396" width="66" height="24" rx="12" fill="#0D1424" stroke="#1E2C4E"/>
+      <text x="125" y="412" text-anchor="middle" fill="#B8C4E0">Node.js</text>
+      <rect x="166" y="396" width="80" height="24" rx="12" fill="#0D1424" stroke="#1E2C4E"/>
+      <text x="206" y="412" text-anchor="middle" fill="#B8C4E0">MongoDB</text>
+      <rect x="254" y="396" width="80" height="24" rx="12" fill="#0D1424" stroke="#1E2C4E"/>
+      <text x="294" y="412" text-anchor="middle" fill="#B8C4E0">Express</text>
+    </g>
+    <text x="24" y="450" font-size="11" fill="#3A4A70">github.com/Skc-VitInProjects</text>
+  </g>
+</svg>

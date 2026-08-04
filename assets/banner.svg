@@ -1,0 +1,109 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060A14"/>
+      <stop offset="55%" stop-color="#0B1226"/>
+      <stop offset="100%" stop-color="#0F1830"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#4C6FFF"/>
+      <stop offset="100%" stop-color="#B24BF3"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7DF4FF"/>
+      <stop offset="100%" stop-color="#8FA6FF"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="80%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#4C6FFF" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#4C6FFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bgGrad)"/>
+  <rect width="1200" height="320" fill="url(#haze)"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#glowGrad)"/>
+  <rect x="0" y="316" width="1200" height="4" fill="url(#glowGrad)" opacity="0.6"/>
+
+  <!-- grid texture -->
+  <g stroke="#1A2440" stroke-width="1" opacity="0.35">
+    <line x1="0" y1="80" x2="1200" y2="80"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="620" y1="0" x2="620" y2="320"/>
+  </g>
+
+  <!-- left: identity block -->
+  <text x="60" y="88" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" letter-spacing="4" fill="#5C6B8A">SYSTEM // DEVELOPER PROFILE</text>
+
+  <text x="58" y="142" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="url(#titleGrad)" filter="url(#softGlow)">Skand Kumar Choubey</text>
+
+  <text x="60" y="188" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#E7ECFB">Full-Stack Software Engineer — MERN &amp; Systems</text>
+
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#8DA0C4">
+    <circle cx="63" cy="222" r="4" fill="#00E5FF"/>
+    <text x="76" y="227">CGPA 9.15/10.0</text>
+    <circle cx="220" cy="222" r="4" fill="#B24BF3"/>
+    <text x="233" y="227">260+ DSA Problems Solved</text>
+    <circle cx="452" cy="222" r="4" fill="#4C6FFF"/>
+    <text x="465" y="227">Open to SDE Roles</text>
+  </g>
+
+  <!-- status pill -->
+  <rect x="60" y="252" width="150" height="30" rx="15" fill="#0D1424" stroke="#1E2C4E"/>
+  <circle cx="80" cy="267" r="5" fill="#39FFB0"/>
+  <text x="94" y="272" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#B8C4E0">STATUS: AVAILABLE</text>
+
+  <!-- right: code editor window -->
+  <g transform="translate(660,48)">
+    <rect x="0" y="0" width="500" height="224" rx="10" fill="#0A1020" stroke="#1E2C4E" stroke-width="1.5"/>
+    <rect x="0" y="0" width="500" height="30" rx="10" fill="#0F1830"/>
+    <rect x="0" y="20" width="500" height="10" fill="#0F1830"/>
+    <circle cx="20" cy="15" r="5" fill="#FF5F57"/>
+    <circle cx="38" cy="15" r="5" fill="#FEBC2E"/>
+    <circle cx="56" cy="15" r="5" fill="#28C840"/>
+    <text x="250" y="19" text-anchor="middle" font-family="'Cascadia Code','Courier New',monospace" font-size="11" fill="#5C6B8A">engineer.profile.js</text>
+
+    <g font-family="'Cascadia Code','Courier New',monospace" font-size="13.5">
+      <text x="22" y="58"><tspan fill="#7A8CB8">const</tspan> <tspan fill="#7DF4FF"> developer</tspan> <tspan fill="#8DA0C4">=</tspan> <tspan fill="#B8C4E0"> {</tspan></text>
+      <text x="42" y="82"><tspan fill="#8FA6FF">role</tspan><tspan fill="#B8C4E0">: </tspan><tspan fill="#8CE99A">'Full-Stack Engineer'</tspan><tspan fill="#B8C4E0">,</tspan></text>
+      <text x="42" y="106"><tspan fill="#8FA6FF">stack</tspan><tspan fill="#B8C4E0">: </tspan><tspan fill="#8CE99A">['React', 'Node', 'Mongo']</tspan><tspan fill="#B8C4E0">,</tspan></text>
+      <text x="42" y="130"><tspan fill="#8FA6FF">focus</tspan><tspan fill="#B8C4E0">: </tspan><tspan fill="#8CE99A">'system design'</tspan><tspan fill="#B8C4E0">,</tspan></text>
+      <text x="42" y="154"><tspan fill="#8FA6FF">status</tspan><tspan fill="#B8C4E0">: </tspan><tspan fill="#8CE99A">'shipping'</tspan></text>
+      <text x="22" y="178" fill="#B8C4E0">};</text>
+      <rect x="90" y="166" width="9" height="16" fill="#00E5FF">
+        <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- tech chips -->
+  <g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#0A1020">
+    <g transform="translate(660,290)">
+      <rect width="70" height="24" rx="12" fill="url(#glowGrad)"/>
+      <text x="35" y="16" text-anchor="middle" font-weight="600">JS/TS</text>
+    </g>
+    <g transform="translate(742,290)">
+      <rect width="70" height="24" rx="12" fill="#0D1424" stroke="#1E2C4E"/>
+      <text x="35" y="16" text-anchor="middle" fill="#B8C4E0">React</text>
+    </g>
+    <g transform="translate(824,290)">
+      <rect width="70" height="24" rx="12" fill="#0D1424" stroke="#1E2C4E"/>
+      <text x="35" y="16" text-anchor="middle" fill="#B8C4E0">Node.js</text>
+    </g>
+    <g transform="translate(906,290)">
+      <rect width="80" height="24" rx="12" fill="#0D1424" stroke="#1E2C4E"/>
+      <text x="40" y="16" text-anchor="middle" fill="#B8C4E0">MongoDB</text>
+    </g>
+    <g transform="translate(998,290)">
+      <rect width="86" height="24" rx="12" fill="#0D1424" stroke="#1E2C4E"/>
+      <text x="43" y="16" text-anchor="middle" fill="#B8C4E0">Express</text>
+    </g>
+  </g>
+</svg>
